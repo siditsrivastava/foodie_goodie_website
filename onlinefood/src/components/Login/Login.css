@@ -1,0 +1,29 @@
+.sign-in{
+    margin-top: 150px;
+    width: auto;
+    height:auto;
+    /* background-color: red; */
+    /* margin: 100px; */
+}
+
+.email-input {
+    width: 500px;
+    
+}
+
+.email-textarea{
+    margin-top: 30px;
+}
+
+.password-input{
+    width: 500px;
+    
+}
+
+.password-textarea{
+    margin-top: 50px;
+}
+
+.Userlogin-btn{
+    margin-top: 40px;
+}

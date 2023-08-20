@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "fooddie-Gooddie",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/app.js"
+    }
+  ]
+}

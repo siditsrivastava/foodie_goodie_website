@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+  }
+  
+  .cart-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #8a2b06;
+      padding: 16px 0;
+      margin: 16px 0;
+      height:auto;
+    }
+    
+    .cart-item h4 {
+      margin: 0 0 5px 0;
+      color: #363636;
+      margin-left: 30px;
+    }
+    
+    .prices {
+      font-weight: bold;
+      color: #8a2b06;
+      margin-top:5px;
+      margin-left:30px;
+      font-size:20px;
+      /* color: red; */
+    }
+  
+    .quantity{
+      margin-left: 30px;
+      font-family: 'roboto',sans-serif;
+      color: black;
+    }
+  
+    .quantity input{
+      width: 30px;
+      padding-left:8px;
+      border: 2px solid gray;
+      border-radius: 5px;
+      color: black;
+    }
+    .actions {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .dark-theme .cart-item h4{
+      color:white
+    }
+  
+    .dark-theme .prices{
+      color:white
+    }
+  
+    .dark-theme .cart-item{
+      background-color: #363636;
+    }
+
+    .addcart_img{
+      width: 90px;
+      height: 80px;
+      margin-top: 10px;
+      margin-left:15px;
+      border-radius: 10px;
+      /* background-color: red; */
+    }
+
+    .addcart-section{
+      display: flex;
+    }
+
+    .addcart_img img{
+      width:90px;
+      height:80px;
+      border-radius: 10px;
+      justify-content: center;
+      align-items:center;
+      
+    }
+
+    .addcart-content{
+      margin-left:5px;
+    }
+  
+    
+    @media (min-width: 768px) {
+      .actions {
+        flex-direction: row;
+      }
+    }
+    
+    .cart-item button {
+      font: inherit;
+      font-weight: bold;
+      font-size: 1.25rem;
+      color: #8a2b06;
+      border: 1px solid #8a2b06;
+      width: 3rem;
+      text-align: center;
+      border-radius: 6px;
+      background-color: transparent;
+      cursor: pointer;
+      margin-left: 1rem;
+      margin: 0.25rem;
+    }
+    
+    .cart-item button:hover,
+    .cart-item button:active {
+      background-color: #8a2b06;
+      color: white;
+    }
+  
+    .dark-theme .cart-item button {
+      color:white;
+      border: 1px solid white;
+    }
